@@ -47,8 +47,7 @@ git push *remote repository* *local branch repository*
 git push origin master //push sa origin (github) yung master (local repo)
 
 
-workflow 
-:
+workflow:
 
 git add -A
 git commit -m *message*
