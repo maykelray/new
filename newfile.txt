@@ -1,2 +1,4 @@
 MA Mauricio
 hello
+
+Today's lesson is about git and github

@@ -1,0 +1,30 @@
+To Install git:
+sudo apt-get install git 
+
+How to make a local repository:
+mkdir my-project
+cd my-project/	//
+git init //initialize
+git status //tells the status of repository
+
+
+make a file:
+touch newfile.txt
+echo 'text' >>newfile.txt //edit file through terminal (echo) 
+git add -A //add all files that's untracked
+
+login using github account for committing:
+git config user.email "mamauricio@up.edu.ph"
+git config user.name "Michael Mauricio"
+
+commit a file
+git commit -m "message"  //kapag walang -m mag oopen ng text editor para sa mas detailed na commit messages
+
+
+
+Branches:
+git branch //return list of all branches. * tells u where you are
+git branch new-feature //make new branch "new-feature"
+git checkout new-feature //move to new branch new-feature
+
+git checkout -b <new branchname> //create new branch and switch to that branch 
