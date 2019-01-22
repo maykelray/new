@@ -34,3 +34,14 @@ applying the changes in 1 branch to another branch
 source branch --> target branch
 
 git merge <source branch> <target branch> //you have to be in the target branch before merging
+
+git branch -d new-feature //delete new branch
+
+git clone <github link>
+
+Remote Repositories:
+git remote add origin *link* //add a specified url and name it as "origin"
+
+pushing files into origin:
+git push *remote repository* *local branch repository* 
+git push origin master //push sa origin (github) yung master (local repo)
