@@ -45,3 +45,11 @@ git remote add origin *link* //add a specified url and name it as "origin"
 pushing files into origin:
 git push *remote repository* *local branch repository* 
 git push origin master //push sa origin (github) yung master (local repo)
+
+
+workflow 
+:
+
+git add -A
+git commit -m *message*
+git push *remote* *branch*
